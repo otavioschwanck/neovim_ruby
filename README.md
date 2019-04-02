@@ -5,6 +5,9 @@ Based on coc.nvim:
 
 https://github.com/neoclide/coc.nvim (Recommended to read)
 
+## Demonstration
+![demonstration](https://i.imgur.com/DWDXPSS.gif)
+
 ## Dependencies
 - python3
 - python3-neovim
