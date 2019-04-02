@@ -13,7 +13,7 @@ https://github.com/neoclide/coc.nvim (Recommended to read)
 - exuberant-ctags
 
 To Ubuntu \ Mint, run:
-sudo apt install python3-neovim python3-pip python3-setuptools exuberant-ctags silversearcher-ag
+sudo apt install python3-neovim python3-pip python3-setuptools exuberant-ctags silversearcher-ag; sudo pip3 install pynvim
 
 Install fzf:
 https://github.com/junegunn/fzf
@@ -42,7 +42,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ## For Ruby users
 Install Ruby with rvm or rbenv and install solargraph.
 
-`gem install solargraph`
+`gem install solargraph rubocop neovim`
 
 Thats it!
 
