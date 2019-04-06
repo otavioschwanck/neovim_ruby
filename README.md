@@ -14,6 +14,7 @@ https://github.com/neoclide/coc.nvim (Recommended to read)
 - fzf
 - silversearcher-ag
 - exuberant-ctags
+- yarn
 
 To Ubuntu \ Mint, run:
 sudo apt install python3-neovim python3-pip python3-setuptools exuberant-ctags silversearcher-ag; sudo pip3 install pynvim
@@ -25,6 +26,10 @@ https://github.com/junegunn/fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
+
+Install YARN:
+
+npm install -g yarn
 
 ## Installation
 
@@ -38,9 +43,11 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 5 - Exit from nvim (:q)
 
-6 - Open Neovim Again and run `:CocInstall coc-json coc-html coc-css coc-solargraph coc-snippets`
+6 - run on nvim: `:coc#util#build()`
 
-7 - create a .backups folder on home. (mkdir ~/.backups)
+7 - Open Neovim Again and run `:CocInstall coc-json coc-html coc-css coc-solargraph coc-snippets`
+
+8 - create a .backups folder on home. (mkdir ~/.backups)
 
 ## For Ruby users
 Install Ruby with rvm or rbenv and install solargraph.
