@@ -86,3 +86,7 @@ Thats it!
 - https://github.com/terryma/vim-multiple-cursors - Nice for multiple cursors
 - https://github.com/junegunn/fzf.vim - Learning more about fzf
 
+
+# Troubleshoot
+
+Run :checkhealth to find some errors.
