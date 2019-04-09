@@ -78,6 +78,7 @@ Thats it!
 | , + ic | JsFixImport |
 | F4     | Toggle Terminal |
 | F5     | Exit Terminal Mode |
+| , + shift + B | Run the current file |
 
 
 # Recomended material to study:

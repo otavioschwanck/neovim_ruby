@@ -50,6 +50,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 
+" Run code with ,r
+Plug 'xianzhon/vim-code-runner'
+
 call plug#end()
 
 " Indent Stuff
@@ -99,7 +102,7 @@ let g:airline#extensions#tabline#fnametruncate = 16
 let g:airline#extensions#tabline#fnamecollapse = 2
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 
-" Tavin Personal Configuration "
+" Personal Configuration "
 
 " Leader with ,
 let mapleader=","
@@ -218,5 +221,4 @@ nnoremap <f4> :call Term_toggle()<cr>
 " Exit from terminal
 :tnoremap <F5> <C-\><C-n>
 
-
-
+nmap <silent><leader>B <plug>CodeRunner
