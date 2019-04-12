@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 
+" Unpaired
+Plug 'tpope/vim-unimpaired'
+
 " One dark theme
 Plug 'joshdick/onedark.vim'
 
@@ -34,6 +37,12 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Git Diff
 Plug 'airblade/vim-gitgutter'
+
+" Vim Fugitive
+Plug 'tpope/vim-fugitive'
+
+" Vim Gitlabs
+Plug 'shumphrey/fugitive-gitlab.vim'
 
 " Multple cursors is hot
 Plug 'terryma/vim-multiple-cursors'
@@ -146,6 +155,7 @@ nmap <Leader><CR> :nohlsearch<cr>
 
 " Save file with leader w
 map <leader>w :w!<CR>
+map <C-s> :w!<CR>
 map <leader>W :wall!<CR>
 map <leader>n :bn<CR>
 map <leader>p :bp<CR>
@@ -161,10 +171,6 @@ set hidden
 nmap <C-p> :FZF<CR>
 
 set ai sw=2 sts=2
-
-" Use Mouse inside vim
-
-set mouse=a
 
 " Colorscheme
 set termguicolors
@@ -222,3 +228,18 @@ nnoremap <f4> :call Term_toggle()<cr>
 :tnoremap <F5> <C-\><C-n>
 
 nmap <silent><leader>B <plug>CodeRunner
+
+" Vim-Fugitive
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gb :Gbrowse<CR>
+nmap <leader>ga :Git add .<CR>:bd!<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gl :Glog
+nmap <leader>ge :Gedit<CR>
+
+" Personal configurations
+
+let g:gitlab_api_keys = {'gitlab.com': 'your-api-key'}
+
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'

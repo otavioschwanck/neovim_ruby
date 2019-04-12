@@ -80,6 +80,14 @@ Thats it!
 | F5     | Exit Terminal Mode |
 | , + shift + B | Run the current file |
 
+# Git Epic Commands
+| , + gs | Show de status |
+| , + gd | Show de Git Diff of current File (cool to use with ,gs) |
+| , + gb | Open your repository site |
+| , + ga | git add . on your project directory |
+| , + gc | git commit |
+| , + gg | git log, use [q and ]q ]Q nd [Q to navigate between file history |
+| , + ge | Leave the git log (Gedit) |
 
 # Recomended material to study:
 
