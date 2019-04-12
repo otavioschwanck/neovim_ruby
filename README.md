@@ -92,6 +92,19 @@ Thats it!
 | , + ge | Leave the git log (Gedit) |
 | , + gh | Git checkout |
 
+# Rails Epic Commands
+| Commands | Action |
+| --- | ------------|
+| , rt | Alternate from File to Test |
+| , rm | Find the model of current resource |
+| , rc | Find controller of curent resource |
+| , rv | Find view of current resource (must be on Action in controller)
+
+| , rwt | Alternate from File to Test but using vsplit |
+| , rwm | Find the model of current resource but using vsplit |
+| , rwc | Find controller of curent resource but using vsplit |
+| , rwv | Find view of current resource (must be on Action in controller) but using vsplit |
+
 # Recomended material to study:
 
 - https://github.com/tpope/vim-surround - Super cool when masterized.
