@@ -8,6 +8,8 @@ https://github.com/neoclide/coc.nvim (Recommended to read)
 ## Demonstration
 ![demonstration](https://i.imgur.com/SLyoGwS.gif)
 
+obs: I just doing random stuff with a very old code that i found =D
+
 ## Dependencies
 - python3
 - python3-neovim
