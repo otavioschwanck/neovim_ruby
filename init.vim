@@ -163,7 +163,8 @@ map <leader>b :Buffers<CR>
 map <leader>F :Ag 
 
 " Close a buffer
-map <leader>d :bd!<CR>
+map <leader>d :bd<CR>
+map <leader>D :bd!<CR>
 
 " Edit multiple buffers
 set hidden
@@ -254,7 +255,6 @@ nmap <leader>rwt :AV<CR>
 nmap <leader>rwm :Vmodel<CR>
 nmap <leader>rwc :Vcontroller<CR>
 nmap <leader>rwv :Vview<CR>
-
 
 " Personal configurations
 

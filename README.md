@@ -94,6 +94,8 @@ Thats it!
 | , + gg | git pull     |
 | , + gm | git checkout master |
 
+TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster. (:bd! equivalent)
+
 # Rails Epic Commands
 | Commands | Action |
 | --- | ------------|
