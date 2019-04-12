@@ -237,6 +237,7 @@ nmap <leader>ga :Git add .<CR>:bd!<CR>
 nmap <leader>gc :Gcommit<CR>
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
+nmap <leader>gh :Git checkout
 
 " Recommend to run it first: git config --global push.default current
 nmap <leader>gp :Git push<CR>

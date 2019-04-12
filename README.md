@@ -90,6 +90,7 @@ Thats it!
 | , + gc | git commit |
 | , + gg | git log, use [q and ]q ]Q nd [Q to navigate between file history |
 | , + ge | Leave the git log (Gedit) |
+| , + gh | Git checkout |
 
 # Recomended material to study:
 
