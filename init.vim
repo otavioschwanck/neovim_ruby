@@ -239,6 +239,9 @@ nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
 nmap <leader>gh :Git checkout
 
+" Recommend to run it first: git config --global push.default current
+nmap <leader>gp :Git push<CR>bd!
+
 " Rails Stuff
 nmap <leader>rt :A<CR>
 nmap <leader>rm :Emodel<CR>
@@ -250,8 +253,6 @@ nmap <leader>rwm :Vmodel<CR>
 nmap <leader>rwc :Vcontroller<CR>
 nmap <leader>rwv :Vview<CR>
 
-" Recommend to run it first: git config --global push.default current
-nmap <leader>gp :Git push<CR>
 
 " Personal configurations
 
