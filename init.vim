@@ -238,6 +238,9 @@ nmap <leader>gc :Gcommit<CR>
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
 
+" Recommend to run it first: git config --global push.default current
+nmap <leader>gp :Git push<CR>
+
 " Personal configurations
 
 let g:gitlab_api_keys = {'gitlab.com': 'your-api-key'}
