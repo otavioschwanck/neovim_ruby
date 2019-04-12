@@ -99,7 +99,6 @@ Thats it!
 | , rm | Find the model of current resource |
 | , rc | Find controller of curent resource |
 | , rv | Find view of current resource (must be on Action in controller)
-
 | , rwt | Alternate from File to Test but using vsplit |
 | , rwm | Find the model of current resource but using vsplit |
 | , rwc | Find controller of curent resource but using vsplit |
