@@ -81,6 +81,8 @@ Thats it!
 | , + shift + B | Run the current file |
 
 # Git Epic Commands
+| Command | Action |
+| --- | -----------|
 | , + gs | Show de status |
 | , + gd | Show de Git Diff of current File (cool to use with ,gs) |
 | , + gb | Open your repository site |
