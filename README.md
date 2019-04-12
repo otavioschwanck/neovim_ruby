@@ -107,6 +107,12 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , rwm | Find the model of current resource but using vsplit |
 | , rwc | Find controller of curent resource but using vsplit |
 | , rwv | Find view of current resource (must be on Action in controller) but using vsplit |
+| , ru | Run :Rubocop on project |
+| , rwu | Run :Rubocop -a on project |
+| , rss | Run Current File in Rspec |
+| , rsl | Run Last spec |
+| , rsa | Run All specs |
+
 
 # Recomended material to study:
 
