@@ -91,6 +91,8 @@ Thats it!
 | , + gg | git log, use [q and ]q ]Q nd [Q to navigate between file history |
 | , + ge | Leave the git log (Gedit) |
 | , + gh | Git checkout |
+| , + gg | git pull     |
+| , + gm | git checkout master |
 
 # Rails Epic Commands
 | Commands | Action |

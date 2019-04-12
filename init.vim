@@ -238,6 +238,8 @@ nmap <leader>gc :Gcommit<CR>
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
 nmap <leader>gh :Git checkout
+nmap <leader>gg :Git pull<CR>
+nmap <leader>gm :Git checkout master
 
 " Recommend to run it first: git config --global push.default current
 nmap <leader>gp :Git push<CR>bd!
