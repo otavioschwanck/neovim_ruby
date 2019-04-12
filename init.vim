@@ -163,7 +163,7 @@ map <leader>b :Buffers<CR>
 map <leader>F :Ag 
 
 " Close a buffer
-map <leader>d :bd<CR>
+map <leader>d :bd!<CR>
 
 " Edit multiple buffers
 set hidden
