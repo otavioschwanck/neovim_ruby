@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 
+" Ctags
+Plug 'ludovicchabant/vim-gutentags'
+
 " Unpaired
 Plug 'tpope/vim-unimpaired'
 

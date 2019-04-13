@@ -81,6 +81,9 @@ Thats it!
 | F4     | Toggle Terminal |
 | F5     | Exit Terminal Mode |
 | , + shift + B | Run the current file |
+| ctrl + ] | Go to definition of Class \ Method on cursor |
+| ] | Go to next blank line (Cool for navigation) |
+| [ | Go to previous blank line (Cool for navigation) |
 
 # Git Epic Commands
 | Command | Action |
