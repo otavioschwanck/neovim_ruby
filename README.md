@@ -114,10 +114,12 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , rwv | Find view of current resource (must be on Action in controller) but using vsplit |
 | , ru | Run :Rubocop on project |
 | , rwu | Run :Rubocop -a on project |
-| , rss | Run Current File in Rspec |
-| , rsl | Run Last spec |
-| , rsa | Run All specs |
 
+# Running Tests like a boss
+| , tn  | Test nearest spec on cursor |
+| , tf  | Test current opened file |
+| , ta  | Run Tests on entire project |
+| , tl  | Run Last Test |
 
 # Recomended material to study:
 

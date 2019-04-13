@@ -62,7 +62,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'ngmy/vim-rubocop'
-Plug 'thoughtbot/vim-rspec'
+" Plug 'thoughtbot/vim-rspec'
+Plug 'janko-m/vim-test'
 
 " Run code with ,r
 Plug 'xianzhon/vim-code-runner'
@@ -263,9 +264,10 @@ nmap <leader>rwv :Vview<CR>
 
 nmap <leader>rwu :RuboCop -a<CR>
 
-map <Leader>rss :call RunCurrentSpecFile()<CR>
-map <Leader>rsl :call RunLastSpec()<CR>
-map <Leader>rsa :call RunAllSpecs()<CR>
+map <Leader>tn :TestNearest<CR>
+map <Leader>tf :TestFile<CR>
+map <Leader>ta :TestSuite<CR>
+map <Leader>tl :TestLast<CR>
 
 " Personal configurations
 
