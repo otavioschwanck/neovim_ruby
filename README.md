@@ -1,4 +1,4 @@
-# coc_neovim_files
+# Neovim Ruby
 
 ## About
 Based on coc.nvim:
