@@ -116,6 +116,8 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , rwu | Run :Rubocop -a on project |
 
 # Running Tests like a boss
+| Commands | Action |
+| --- | ------------|
 | , tn  | Test nearest spec on cursor |
 | , tf  | Test current opened file |
 | , ta  | Run Tests on entire project |
