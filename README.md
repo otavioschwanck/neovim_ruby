@@ -8,6 +8,9 @@ https://github.com/neoclide/coc.nvim (Recommended to read)
 ## Demonstration
 ![demonstration](https://i.imgur.com/SLyoGwS.gif)
 
+## Video demonstration of some commands(pt_BR):
+https://youtu.be/3MYo9z0YsLg
+
 obs: I just doing random stuff with a very old code that i found =D
 
 ## Dependencies
@@ -133,3 +136,7 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 # Troubleshoot
 
 Run :checkhealth to find some errors.
+
+# Autocomplete doen't work
+
+Go to ~/.config/nvim/plugged/coc.nvim and run yarn.

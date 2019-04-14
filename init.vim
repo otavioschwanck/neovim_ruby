@@ -274,3 +274,6 @@ map <Leader>tl :TestLast<CR>
 let g:gitlab_api_keys = {'gitlab.com': 'your-api-key'}
 
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
+
+" Discomment here if yu use docker
+" let test#ruby#rspec#executable = 'docker-compose exec app rspec'
