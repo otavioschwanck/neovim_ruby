@@ -270,7 +270,7 @@ map <Leader>tl :TestLast<CR>
 
 " Copy and Paste with system clipboard
 nmap \y "+y
-nmap \p "+p
+nmap \p "*p
 
 " If you prefer the yank always sync with the system, comment above maps and
 " uncomment the line below

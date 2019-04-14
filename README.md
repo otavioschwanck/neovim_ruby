@@ -19,7 +19,7 @@ https://youtu.be/3MYo9z0YsLg
 - fzf
 - silversearcher-ag
 - exuberant-ctags
-- yarn
+- yarn (Installed with nvm (https://github.com/creationix/nvm))
 - xclip
 
 To Ubuntu \ Mint, run:
