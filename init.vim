@@ -106,7 +106,6 @@ syntax enable
 set ignorecase
 
 nnoremap <C-e> :NERDTreeToggle<CR>
-set clipboard=unnamedplus
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
@@ -268,6 +267,14 @@ map <Leader>tn :TestNearest<CR>
 map <Leader>tf :TestFile<CR>
 map <Leader>ta :TestSuite<CR>
 map <Leader>tl :TestLast<CR>
+
+" Copy and Paste with system clipboard
+nmap \y "+y
+nmap \p "+p
+
+" If you prefer the yank always sync with the system, comment above maps and
+" uncomment the line below
+" set clipboard=unnamedplus
 
 " Personal configurations
 

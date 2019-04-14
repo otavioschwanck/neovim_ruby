@@ -20,6 +20,7 @@ obs: I just doing random stuff with a very old code that i found =D
 - silversearcher-ag
 - exuberant-ctags
 - yarn
+- xclip
 
 To Ubuntu \ Mint, run:
 sudo apt install python3-neovim python3-pip python3-setuptools exuberant-ctags silversearcher-ag; sudo pip3 install pynvim
@@ -126,12 +127,19 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , ta  | Run Tests on entire project |
 | , tl  | Run Last Test |
 
+# Copy and Paste with system clipboard (requires xclip)
+| Commands | Action |
+| --- | ------------|
+| \y  | y integrated with system clipboard, do \yy to yank line, or \yw to yank a word, etc... |
+| \p  | same as \y but for paste |
+
+You can uncomment the line with `set clipboard=unnamedplus` to make yank always synced with system, but i not recommend (Is really boring when you copy something from outside and use a dd and lost it.)
+
 # Recomended material to study:
 
 - https://github.com/tpope/vim-surround - Super cool when masterized.
 - https://github.com/terryma/vim-multiple-cursors - Nice for multiple cursors
 - https://github.com/junegunn/fzf.vim - Learning more about fzf
-
 
 # Troubleshoot
 
