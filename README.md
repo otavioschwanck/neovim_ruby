@@ -102,6 +102,7 @@ Thats it!
 | , + gh | Git checkout |
 | , + gg | git pull     |
 | , + gm | git checkout master |
+| , + gwd | Git diff on entire project |
 
 TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster. (:bd! equivalent)
 
@@ -127,6 +128,8 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , ta  | Run Tests on entire project |
 | , tl  | Run Last Test |
 
+Super TIP: If you want to scroll in your test output, you need to do it on normal mode.  Press F5 to exit insert mode, and navigate normaly. You close terminal, just use `, + shift + D`
+
 # Copy and Paste with system clipboard (requires xclip)
 | Commands | Action |
 | --- | ------------|
@@ -145,6 +148,6 @@ You can uncomment the line with `set clipboard=unnamedplus` to make yank always 
 
 Run :checkhealth to find some errors.
 
-# Autocomplete doen't work
+# Autocomplete doesn't work
 
 Go to ~/.config/nvim/plugged/coc.nvim and run yarn.

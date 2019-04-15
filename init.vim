@@ -246,6 +246,7 @@ nmap <leader>ge :Gedit<CR>
 nmap <leader>gh :Git checkout
 nmap <leader>gg :Git pull<CR>
 nmap <leader>gm :Git checkout master
+nmap <leader>gwd :Git diff HEAD .<CR>
 
 " Recommend to run it first: git config --global push.default current
 nmap <leader>gp :Git push<CR>bd!
@@ -271,6 +272,9 @@ map <Leader>tl :TestLast<CR>
 " Copy and Paste with system clipboard
 nmap \y "+y
 nmap \p "*p
+xnoremap \y "+y
+
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
 
 " If you prefer the yank always sync with the system, comment above maps and
 " uncomment the line below
@@ -280,7 +284,5 @@ nmap \p "*p
 
 let g:gitlab_api_keys = {'gitlab.com': 'your-api-key'}
 
-let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
-
-" Discomment here if yu use docker
+" Discomment here if you use docker
 " let test#ruby#rspec#executable = 'docker-compose exec app rspec'
