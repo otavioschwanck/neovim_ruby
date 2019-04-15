@@ -49,9 +49,9 @@ npm install -g yarn
 
 5 - Exit from nvim (:q)
 
-6 - run on nvim: `:coc#util#build()`
+6 - open neovim again (nvim) and run: `:coc#util#build()`
 
-7 - Open Neovim Again and run `:CocInstall coc-json coc-html coc-css coc-solargraph coc-snippets`
+7 - Run it too: `:CocInstall coc-json coc-html coc-css coc-solargraph coc-snippets`
 
 8 - create a .backups folder on home. (mkdir ~/.backups)
 
