@@ -111,7 +111,7 @@ Thats it!
 
 TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster. (:bd! equivalent)
 
-# Rails Epic Commands
+# Ruby \ Rails Epic Commands
 | Commands | Action |
 | --- | ------------|
 | , rt | Alternate from File to Test |
@@ -124,6 +124,8 @@ TIP: For Git Push, git pull, etc, use `, + shift + d` to close the buffer faster
 | , rwv | Find view of current resource (must be on Action in controller) but using vsplit |
 | , ru | Run :Rubocop on project |
 | , rwu | Run :Rubocop -a on project |
+| ]m | Navigate to next method definition |
+| [m | Navigate to prevous method definition |
 
 # Running Tests like a boss
 | Commands | Action |
