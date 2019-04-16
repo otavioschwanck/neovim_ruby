@@ -1,7 +1,7 @@
 # Neovim Ruby
 
 ## About
-Based on coc.nvim:
+A complete IDE for Rails development with vim.  Uses coc.nvim for auto-complete.
 
 https://github.com/neoclide/coc.nvim (Recommended to read)
 
@@ -14,16 +14,20 @@ obs: I just doing random stuff with a very old code that i found =D
 https://youtu.be/3MYo9z0YsLg
 
 ## Dependencies
-- python3
 - python3-neovim
 - fzf
 - silversearcher-ag
 - exuberant-ctags
 - yarn (Installed with nvm (https://github.com/creationix/nvm))
 - xclip
+- Ruby (with rvm ou rbenv)
 
 To Ubuntu \ Mint, run:
+
 sudo apt install python3-neovim python3-pip python3-setuptools exuberant-ctags silversearcher-ag; sudo pip3 install pynvim
+
+On Solus, run:
+sudo eopkg install neovim xclip ctags neovim silver-searcher python-neovim
 
 Install fzf:
 https://github.com/junegunn/fzf
@@ -55,7 +59,8 @@ npm install -g yarn
 
 8 - create a .backups folder on home. (mkdir ~/.backups)
 
-## For Ruby users
+## Ruby Auto-complete
+
 Install Ruby with rvm or rbenv and install solargraph.
 
 `gem install solargraph rubocop neovim`
