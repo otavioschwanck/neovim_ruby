@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 
+" Markdown Support
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+
 " Ctags
 Plug 'ludovicchabant/vim-gutentags'
 

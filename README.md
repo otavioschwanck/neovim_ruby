@@ -21,6 +21,13 @@ https://youtu.be/3MYo9z0YsLg
 - yarn (Installed with nvm (https://github.com/creationix/nvm))
 - xclip
 - Ruby (with rvm ou rbenv)
+- NerdFonts
+
+Tested on:
+ - Solus
+ - Ubuntu
+ - Arch Linux
+ - MacOS (Thanks Sérgio Maia)
 
 To Ubuntu \ Mint, run:
 
@@ -31,6 +38,7 @@ sudo eopkg install neovim xclip ctags neovim silver-searcher python-neovim
 
 Install fzf:
 https://github.com/junegunn/fzf
+
 
 ```
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -102,7 +110,7 @@ Thats it!
 | , + gb | Open your repository site |
 | , + ga | git add . on your project directory |
 | , + gc | git commit |
-| , + gg | git log, use [q and ]q ]Q nd [Q to navigate between file history |
+| , + gg | git log, use [q and ]q to navigate in file history |
 | , + ge | Leave the git log (Gedit) |
 | , + gh | Git checkout |
 | , + gg | git pull     |
@@ -143,6 +151,12 @@ Super TIP: If you want to scroll in your test output, you need to do it on norma
 | \y  | y integrated with system clipboard, do \yy to yank line, or \yw to yank a word, etc... |
 | \p  | same as \y but for paste |
 
+# Miscellaneous
+
+| Commands | Action |
+| --- | ------------|
+| :MarkdownPreview | Open current file in browser with markdown preview.  It's async! |
+
 You can uncomment the line with `set clipboard=unnamedplus` to make yank always synced with system, but i not recommend (Is really boring when you copy something from outside and use a dd and lost it.)
 
 # Recomended material to study:
@@ -150,6 +164,12 @@ You can uncomment the line with `set clipboard=unnamedplus` to make yank always 
 - https://github.com/tpope/vim-surround - Super cool when masterized.
 - https://github.com/terryma/vim-multiple-cursors - Nice for multiple cursors
 - https://github.com/junegunn/fzf.vim - Learning more about fzf
+
+# Want to learn basics of vim? 
+
+I really recommend this udemy course: https://www.udemy.com/vim-commands-cheat-sheet/
+
+Very great course!
 
 # Troubleshoot
 
