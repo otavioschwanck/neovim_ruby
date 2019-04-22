@@ -243,7 +243,7 @@ nmap <leader>gs :Gstatus<CR>
 nmap <leader>gd :Gdiff<CR>
 nmap <leader>gb :Gbrowse<CR>
 nmap <leader>ga :Git add .<CR>:bd!<CR>
-nmap <leader>gc :Gcommit<CR>
+nmap <leader>gc :Gcommit<CR>i
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
 nmap <leader>gh :Git checkout
