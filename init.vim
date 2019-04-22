@@ -247,12 +247,12 @@ nmap <leader>gc :Gcommit<CR>
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
 nmap <leader>gh :Git checkout
-nmap <leader>gg :Git pull<CR>
-nmap <leader>gm :Git checkout master
+nmap <leader>gg :Git pull<CR>a
+nmap <leader>gm :Git checkout master<CR>a
 nmap <leader>gwd :Git diff HEAD .<CR>
 
 " Recommend to run it first: git config --global push.default current
-nmap <leader>gp :Git push<CR>bd!
+nmap <leader>gp :Git push<CR>a
 
 " Rails Stuff
 nmap <leader>rt :A<CR>
@@ -289,3 +289,5 @@ let g:gitlab_api_keys = {'gitlab.com': 'your-api-key'}
 
 " Discomment here if you use docker
 " let test#ruby#rspec#executable = 'docker-compose exec app rspec'
+
+set colorcolumn=120
