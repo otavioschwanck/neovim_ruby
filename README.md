@@ -70,7 +70,7 @@ cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complet
 
 1 - Install Neovim
 
-2 - Put the files on .config/nvim/
+2 - Put the files on .config/nvim/ (git clone https://github.com/otavioschwanck/neovim_ruby.git ~/.config/nvim)
 
 3 - Open neovim (nvim on terminal)
 

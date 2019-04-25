@@ -16,7 +16,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 
-" Syntax Chec
+" Syntax Check
 Plug 'vim-syntastic/syntastic'
 
 " Markdown Support
@@ -73,6 +73,9 @@ Plug 'janko-m/vim-test'
 
 " Run code with ,r
 Plug 'xianzhon/vim-code-runner'
+
+" Vim end-wise
+Plug 'tpope/vim-endwise'
 
 call plug#end()
 
