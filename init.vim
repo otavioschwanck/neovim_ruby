@@ -245,7 +245,7 @@ nmap <silent><leader>B <plug>CodeRunner
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gd :Gdiff<CR>
 nmap <leader>gb :Gbrowse<CR>
-nmap <leader>ga :Git add .<CR>:bd!<CR>
+nmap <leader>ga :!git add .<CR>
 nmap <leader>gc :Gcommit<CR>i
 nmap <leader>gl :Glog
 nmap <leader>ge :Gedit<CR>
