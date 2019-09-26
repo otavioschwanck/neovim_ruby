@@ -1,5 +1,9 @@
 # Neovim Ruby
 
+## Alert
+I'm not updated this repo anymore.  Reason:  Start using emacs.  This code is still functional and can be used to daily work.
+I'll make a emacs guide soon.
+
 ## About
 A complete IDE for Rails development with vim.  Uses coc.nvim for auto-complete.
 
