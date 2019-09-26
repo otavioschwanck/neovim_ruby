@@ -6,6 +6,7 @@ I'll make a emacs guide soon.  If you want do know about emacs, just follow this
 
 - Install emacs 26
 - Do the starting guide on emacs
+- Install melpa (for plugin management)
 - Search About projectile
 - Search About helm-projectile
 - Search About Magit
