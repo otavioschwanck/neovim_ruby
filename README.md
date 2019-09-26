@@ -13,7 +13,7 @@ I'll make a emacs guide soon.  If you want do know about emacs, just follow this
 - Search About projectile-rails
 - Search About robe
 - Search About rspec-mode
-- Start Use Rbenv (better with emacs) and start rbenv plugin for emacs
+- Start using Rbenv (better with emacs) and start rbenv plugin for emacs
 - Search About editing plugins like expand-region
 
 ## About
