@@ -1,20 +1,7 @@
 # Neovim Ruby
 
 ## Alert
-I'm not updating this repo anymore.  Reason:  I started using emacs.  This code is still functional and can be used to daily work.
-I'll make a emacs guide soon.  If you want do know about emacs, just follow this simple-to-do:
-
-- Install emacs 26
-- Do the starting guide on emacs
-- Install melpa (for plugin management)
-- Search About projectile
-- Search About helm-projectile
-- Search About Magit
-- Search About projectile-rails
-- Search About robe
-- Search About rspec-mode
-- Start using Rbenv (better with emacs) and start rbenv plugin for emacs
-- Search About editing plugins like expand-region
+I've migrated to doom emacs: https://github.com/hlissner/doom-emacs  Its like vim, but with steroids!
 
 ## About
 A complete IDE for Rails development with vim.  Uses coc.nvim for auto-complete.
